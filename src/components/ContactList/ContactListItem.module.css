@@ -1,0 +1,30 @@
+.name,
+.number {
+  padding: 0;
+  margin: 0;
+  margin-right: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: left;
+}
+
+.name {
+  width: 250px;
+}
+
+.number {
+  width: 150px;
+}
+
+.button {
+  width: 60px;
+  padding: 5px;
+  background-color: transparent;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.button:hover {
+  cursor: pointer;
+  scale: 1.2;
+}
